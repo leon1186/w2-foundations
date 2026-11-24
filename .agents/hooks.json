@@ -12,5 +12,19 @@
         ]
       }
     ]
+  },
+  "log-commands": {
+    "PostToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ../scripts/log_command.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
   }
 }
